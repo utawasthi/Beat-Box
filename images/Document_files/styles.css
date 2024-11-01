@@ -1,0 +1,38 @@
+body {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  width : 100%;
+}
+
+.beatbox {
+  background-color: rgb(54, 53, 53);
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(54, 53, 53);
+  height: 150px;
+  width: 150px;
+  flex-basis: 29%;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border : 10px 10px white;
+}
